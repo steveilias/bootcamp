@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootcamp Scool</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Assignment/style.css">
+</head>
+<body>   
+        <header>
+          <h2>Coding Bootcamp CRM</h2>
+        </header>
+        
+        <section>
+          <nav>
+            <ul>
+              <li><a href="/Assignment/index.html">Home</a></li>
+              <br>
+              <li><a href="/Assignment/assignment/addassignment.html">Add assignment</a></li>
+              <li><a href="/Assignment/assignment/editassignment.html">Edit Assignment</a></li>
+              <li><a href="/Assignment/assignment/updateassignment.html">Update assignment</a></li>
+          
+            </ul>
+          </nav>
+          
+          <article>
+            <h1> Update assignment</h1>
+              <br>
+              <form class="form_assignment">
+                <label for="title">Title</label><br>
+                <select id="assign" name="assign" size="2">
+                <option value="C#">C assignment#</option>
+                <option value="Java ">Java assignment </option>
+                </select>
+                <label for="description">Description</label><br>
+                <textarea name="description" cols="63" rows="3" placeholder="Enter assignment description"></textarea><br>
+                <label for="sub_date">Submission date</label>
+                <input type="text" name="sub_date" onfocus="(this.type='date')" pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" placeholder="Enter submission date..." required><br>
+                <label for="oral_mark">Oral mark</label>
+                <input type="number" name="oral_mark" placeholder="Enter oral mark" min="0" max="100" required><br>
+                <label for="total_mark">Total mark</label>
+                <input type="number" name="total_mark" placeholder="Enter total mark" min="0" max="100" required><br>
+                <input type="submit" value="Update">
+            </form>
+        </article>
+
+        </section>
+        
+        <footer>
+          <p>Footer</p>
+        </footer>
+        
+        </body>
+        </html>
+        
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootcamp Scool</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Assignment/style.css">
+</head>
+<body>   
+        <header>
+          <h2>Coding Bootcamp CRM</h2>
+        </header>
+        
+        <section>
+          <nav>
+            <ul>
+              <li><a href="/Assignment/index.html">Home</a></li>
+              <br>
+              <li><a href="/assignment/course/addcourse.html">Add course</a></li>
+              <li><a href="/assignment/course/editcourse.html">Edit course</a></li>
+              <li><a href="/assignment/course/updatecourse.html">Update course</a></li>
+          
+            </ul>
+          </nav>
+          
+          <article>
+              <h1> Edit Course</h1>
+                  <br>
+                  <form class="course_form">
+                    <label for="title">Select Title</label><br>
+                    <select id="assign" name="assign" size="2">
+                    <option value="C#">C#</option>
+                    <option value="Java ">Java </option>
+                    </select>
+                     <label for="title">Stream</label>
+                     <input type="text" name="stream" placeholder="Enter course stream" required>
+                     <br>
+                    <fieldset>
+                    <legend>Type</legend>
+                    <label><input type="radio" name="type" checked>Full time</label>
+                    <label><input type="radio" name="type">Part time</label>
+                    </fieldset>
+                    <br>
+                    <label for="start_date">Start date</label>
+                    <input type="text" name="start_date" onfocus="(this.type='date')" placeholder="Enter start date..." pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" required><br>
+                    <label for="end_date">End date</label>
+                    <input type="text" name="end_date" onfocus="(this.type='date')" placeholder="Enter end date..." pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" required><br>
+                    <input type="submit" value="Edit">
+                </form>
+        </article>
+
+        </section>
+        
+        <footer>
+          <p>Footer</p>
+        </footer>
+        
+        </body>
+        </html>
+        
+</html>

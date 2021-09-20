@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  
+  /* Style the header */
+  header {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+   
+    background: #ccc;
+    padding: 20px;
+    height: 300px;
+  }
+  nav li a {
+    color: white;
+    text-decoration: none;
+}
+  li a:hover {
+    color: rgb(115, 105, 255);
+}
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 900px; 
+    
+}
+  
+  
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  footer { 
+    width: 100%; 
+    bottom: 0px; 
+    background-color: rgb(95, 85, 85); 
+    color: #fff; 
+    position: absolute; 
+    padding-top:20px; 
+    padding-bottom:20px; 
+    text-align:center; 
+    font-size:15px; 
+    font-weight:bold; 
+} 
+.course_form {
+    position: relative;
+    left: 100px;
+    top: 5px;
+    width: 500px;
+}
+#spc{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    width: 500px;
+
+}
+ form {
+    position: relative;
+    left: 100px;
+    top: 5px;
+    width: 500px;
+}
+ 
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
+
+  label {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.89);
+  }
+select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  fieldset {
+    border: 1px solid rgba(192, 177, 177, 0.767);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+  input[type=submit]{
+    width: 200px;
+    background-color: rgb(219, 223, 220);
+    margin-left: 160px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+    textarea {
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}  
+table, th, td {
+    border: 1px solid black;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      
+  }
+  
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  
+
+}

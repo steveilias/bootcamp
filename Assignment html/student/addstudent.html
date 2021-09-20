@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootcamp Scool</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Assignment/style.css">
+</head>
+<body>   
+        <header>
+          <h2>Coding Bootcamp CRM</h2>
+        </header>
+        
+        <section>
+          <nav>
+            <ul>
+              <li><a href="/Assignment/index.html">Home</a></li>
+              <br>
+              <li><a href="/Assignment/student/addstudent.html">Add student</a></li>
+              <li><a href="/Assignment/student/editstudent.html">Edit student</a></li>
+              <li><a href="/Assignment/student/updatestudent.html">Update student</a></li>
+          
+            </ul>
+          </nav>
+          
+          <article>
+              <h1> Add student</h1>
+                  <br>
+                  <form class="form_student">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" placeholder="Enter first name" pattern="^[a-zA-Z]+" maxlength="15" required><br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" placeholder="Enter last name" pattern="^[a-zA-Z]+" maxlength="15" required><br>
+                    <label for="date_of_birth">Date of Birth</label>
+                    <input type="text" name="date_of_birth" placeholder="Enter date of birth(dd/mm/yyyy or dd-mm-yyyy or dd.mm.yyyy)" pattern="^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$" required><br>
+                    <label for="tuition_fees">Tuition Fees</label>
+                    <input type="number" name="tuition_fees" placeholder="Enter tuition fees" min="0" required><br>
+                    <input type="submit" value="Add">
+                </form>
+        </article>
+
+        </section>
+        
+        <footer>
+          <p>Footer</p>
+        </footer>
+        
+        </body>
+        </html>
+        
+</html>
